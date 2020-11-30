@@ -11,11 +11,7 @@ class BonusServiceTest {
         boolean registered = true;
         long expected = 30;
 
-        service.calculate(amount, registered);
 
-        long actual = service.calculate(amount, registered);
-
-        
     }
 
 }
